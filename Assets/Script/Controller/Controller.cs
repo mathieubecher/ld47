@@ -143,7 +143,7 @@ public class Controller : MonoBehaviour
 
     public void Reset()
     {
-        if (!gameObject.activeSelf) return;
+        if (rb == null) return;
         
         rb.isKinematic = false;
         rb.velocity = Vector2.zero;
@@ -231,6 +231,7 @@ public class Controller : MonoBehaviour
                 ++_manager.valideState;
                 gun.StopPlay(playNumber);
             }
+            else FindObjectOfType<Score>().IncrementBuffer();
             //while(informations.Count > playNumber) informations.RemoveAt(informations.Count-1);
             for(int i = 0; i < playNumber; ++i)
             {

@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
     public LayerMask groundMask;
     public LayerMask wallMask;
 
-    
+    public Score score;
     
     void Start()
     {
@@ -139,10 +139,15 @@ public class GameManager : MonoBehaviour
     void Wait()
     {
         stateTurn = State.wait;
-        CameraEffect.Saturate(0,0.3f);
-        CameraEffect.Grain(0.1f,0.2f);
+        CameraEffect.Saturate(-36.6f,0.3f);
+        CameraEffect.Grain(0.3f,0.2f);
         wait = 3.8f;
-        if (valideState == players.Count-1) ++state;
+        if (valideState == players.Count - 1)
+        {
+            score.SetScore();
+            ++state;
+        }
+        else if(!players[state%players.Count].dead) score.IncrementBuffer();
         
         switch (state % players.Count)
         {

@@ -17,14 +17,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/BouncyBullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Controller/Player2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Controller/Player1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Exit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.postprocessing@2.2.2/PostProcessing/Runtime/Effects/ChromaticAberration.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Timer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/CameraEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Gun.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/FPS.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/StartGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/UI/Bar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/UI/Score.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -44,10 +42,15 @@
         <option value="$PROJECT_DIR$/Assets/Script/Timer.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Controller/VisualController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Exit.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Controller/Controller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/tuto/Tuto.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/StartGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Scofre.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/ShowScore.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Score.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/UI/Bar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/UI/Score.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Controller/Controller.cs" />
       </list>
     </option>
   </component>
@@ -81,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601727268138</updated>
       <workItem from="1601727272407" duration="36422000" />
-      <workItem from="1601794196566" duration="38002000" />
+      <workItem from="1601794196566" duration="42229000" />
     </task>
     <servers />
   </component>

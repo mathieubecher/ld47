@@ -64,15 +64,20 @@
             <e p="Player2.cs" t="Include" />
             <e p="VisualController.cs" t="Include" />
           </e>
-          <e p="Exit.cs" t="Include" />
-          <e p="FPS.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="Gun.cs" t="Include" />
           <e p="Ring.cs" t="Include" />
-          <e p="StartGame.cs" t="Include" />
-          <e p="Timer.cs" t="Include" />
           <e p="tuto" t="Include">
             <e p="Tuto.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="Bar.cs" t="Include" />
+            <e p="Exit.cs" t="Include" />
+            <e p="FPS.cs" t="Include" />
+            <e p="Score.cs" t="Include" />
+            <e p="ShowScore.cs" t="Include" />
+            <e p="StartGame.cs" t="Include" />
+            <e p="Timer.cs" t="Include" />
           </e>
         </e>
       </e>
